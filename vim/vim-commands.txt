@@ -78,4 +78,5 @@ Buffers:
 - :buffers to see list of buffers
 - :bufferN where N is number of buffer to switch to
 - CTRL w w to switch windows
+- Shift CTRL 6 to alternate between 2 different buffers in same window
 
