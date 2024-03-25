@@ -1,0 +1,80 @@
+I am suppose to add text here to try out my vimness.
+
+Lesson One:
+- u is undo!!!
+- U to undo all edits in line
+- CTRL r to redo
+- x delete character
+- dw delete word
+- A append at end of line
+- d$ delete from cursor to end of line
+- w move to next word (to beginning of word)
+- e move to end of word (to end of word, think de)
+- b move to begining of word ("backwards" move)
+- $ move to end of line
+- 0 move to start of line
+- dd delete whole line (can do anywhere in line)
+- p paste (nice for moving whole lines, dd then p)
+- r replace, followed by charater to replace
+- ce delete from cursor to end of word (you go into Insert mode)
+- cc delete whole line and go into Insert mode
+- c$ delete from cursor to end of line
+
+Lesson Two:
+- CTRL g to see cursor line number location
+- G go to bottom of file
+- gg go to top of file
+- line number G to move to line number in file
+
+Lesson Three:
+- / to search
+- n after search word to find next occurance of word
+- N after search word to find previous occurance of word
+
+Lesson Four:
+- % to find matching ), ], } parentheses
+- :s/old/new to sustitute one occurance of old word with new word
+- :s/old/new/g to substitute all the old words with the new words in line
+- :%s/old/new/gc to substitute all old words with new worlds in file, one-at-time
+
+Lesson Five:
+- :! command to execute external (terminal) command
+- :w file.txt to save file
+- v for visual mode
+- v :w or d will save text to new file or delete selected text
+- :r filename will retreve text from filename into current doc at cursor
+
+Lesson Six:
+- o to insert line below cursor, enter Insert mode
+- O to insert line above cursor, enter Insert mode
+- a to insert text AFTER the cursor
+- e to move forward via end of word
+- use v, y, and p to Visual mode, copy and paste
+- yw to copy word
+- yy to copy line
+- :set hlsearch highlighs search words with /word
+- :set ic to search words and ignore case
+- :set nu to show line numbers
+- :set nonumber to hide line numbers
+
+Lesson Seven:
+- :help to enter help mode
+- CTRL w CTRL w to jump from one window to another
+- :q to close help window
+- :help w for help on w command
+- :help vimrc-intro
+- CTRL d <TAB> for tab completion of command (:e CTRL d <TAB> = :edit)
+
+BONUS:
+- CTRL v then arrows, followed by SHIFT i or SHIFT a to column select and
+  insert
+- CTRL d to advance down by half-page
+
+Buffers:
+- CTRL d for TAB completion (like filenames)
+- :e filename to open a buffer for filename
+- :vsplit or :vs to split windows vertically
+- :buffers to see list of buffers
+- :bufferN where N is number of buffer to switch to
+- CTRL w w to switch windows
+
