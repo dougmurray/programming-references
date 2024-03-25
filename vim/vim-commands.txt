@@ -76,7 +76,8 @@ Buffers:
 - :e filename to open a buffer for filename
 - :vsplit or :vs to split windows vertically
 - :buffers to see list of buffers
-- :bufferN where N is number of buffer to switch to
+- :bufferN where N is number of buffer to switch to (:bN flying!)
 - CTRL w w to switch windows
 - Shift CTRL 6 to alternate between 2 different buffers in same window
+- use :bn and :bp for cycling through next and previous buffers (sprinting)
 
