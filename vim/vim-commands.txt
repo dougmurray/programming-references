@@ -69,6 +69,7 @@ BONUS:
 - CTRL v then arrows, followed by SHIFT i or SHIFT a to column select and
   insert
 - CTRL d to advance down by half-page
+- CTRL u to advance up by half-page
 
 Buffers:
 - CTRL d for TAB completion (like filenames)
