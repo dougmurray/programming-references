@@ -1,4 +1,5 @@
-I am suppose to add text here to try out my vimness.
+# Vim Commands
+These commands were derived by the vimtutor, however some were just found randomly or by online searching.
 
 Lesson One:
 - u is undo!!!
