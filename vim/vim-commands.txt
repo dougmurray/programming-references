@@ -19,7 +19,7 @@ Lesson One:
 - r replace, followed by charater to replace
 - ce delete from cursor to end of word (you go into Insert mode)
 - cc delete whole line and go into Insert mode
-- c$ delete from cursor to end of line
+- c$ delete from cursor to end of line and go into Insert mode
 
 Lesson Two:
 - CTRL g to see cursor line number location
