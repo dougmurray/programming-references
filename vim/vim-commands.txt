@@ -82,3 +82,8 @@ Buffers:
 - Shift CTRL 6 to alternate between 2 different buffers in same window
 - use :bn and :bp for cycling through next and previous buffers (sprinting)
 
+Nvim (and also general Vim) Advance:
+- nvim . (for the whole directory to open)
+- :vs to split vertically (buffers!)
+- :e TAB to see other files/directories (this can be . directory too)
+
