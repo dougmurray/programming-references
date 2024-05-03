@@ -20,6 +20,7 @@ Lesson One:
 - ce delete from cursor to end of word (you go into Insert mode)
 - cc delete whole line and go into Insert mode
 - c$ delete from cursor to end of line and go into Insert mode
+- caw change (delete and go to insert mode) whole word that cursor is in
 
 Lesson Two:
 - CTRL g to see cursor line number location
