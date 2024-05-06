@@ -72,6 +72,7 @@ BONUS:
   insert
 - CTRL d to advance down by half-page
 - CTRL u to advance up by half-page
+- di> to delete in between < > brackets. Can also do ci) for between ()
 
 Buffers:
 - CTRL d for TAB completion (like filenames)
