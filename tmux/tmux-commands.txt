@@ -3,7 +3,7 @@
 Note that the default key binding is usually CTRL b, however personal preference is to set the tmux.conf to use *CTRL a*.
 
 ## Panes
-Panes are the second thing which you can swtich between per session. They are like "windows" per computer session. They are great if you want to look at multiple things per session. 
+Panes are the main thing which you can swtich between per session. They are like "windows" per computer session. They are great if you want to look at multiple things per session. 
 
 - CTRL a :split-window -h - split current pane to horizontal layout
     - CTRL a %
