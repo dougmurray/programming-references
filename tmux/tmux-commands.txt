@@ -1,0 +1,29 @@
+# Commonly useful tmux commands
+
+Note that the default key binding is usually CTRL b, however personal preference is to set the tmux.conf to use *CTRL a*.
+
+## Panes
+Panes are the second thing which you can swtich between per session. They are like "windows" per computer session. They are great if you want to look at multiple things per session. 
+
+- CTRL a :split-window -h - split current pane to horizontal layout
+    - CTRL a %
+- CTRL a q - **show pane numbers**
+- CTRL a q 0...9 - switch/select pane by number
+- CTRL a o - switch to next pane
+- CTRL a x - close pane
+
+## Sessions
+Sessions are the main elements that can run different processes at different times. They are the second main things to switch to and from.
+
+- tmux ls - list all tmux sessions
+- tmux new -s sessionname - start new session with sessionname
+    - CTRL a :new -s sessionname
+- tmux kill-session -t sessionname - kill/delete sessionname
+- tmux kill-session -a - kill/delete all but current session
+- CTRL a w - **session and window preview**
+- CTRL a ) - Move to next session
+
+## Copy mode
+
+- CTRL a :setw -g mode-keys vi - use vim keybindings for copy/paste
+    - this can be added to tmux.conf
