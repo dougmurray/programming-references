@@ -12,6 +12,10 @@ Panes are the main thing which you can swtich between per session. They are like
 - CTRL a o - switch to next pane
 - CTRL a x - close pane
 
+Bonus: 
+
+- CTRL a t to display the current time
+
 ## Sessions
 Sessions are the main elements that can run different processes at different times. They are the second main things to switch to and from.
 
