@@ -1,6 +1,20 @@
-# Install custom mplstyle sheet
+# Installing custom mplstyle sheet
 
-Save mpl style sheet in `stylelib` path. This usually is somewhere like `/Users/sdou/opt/miniconda3/lib/python3.8/site-packages/matplotlib/mpl-data/stylelib`. 
+Save the mpl style sheet in `stylelib` path. This usually is somewhere like `/Users/sdou/opt/miniconda3/lib/python3.8/site-packages/matplotlib/mpl-data/stylelib`. You can check where this directory is by running python and:
+
+```
+import matplotlib
+matplotlib.get_configdir()
+```
+
+If the directory `stylelib` is not there then make it. Then add in the `stylelib` your custom.mplstyle style sheet.
+
+After all this then you can run python and:
+
+```
+import matplotlib.pyplot as plt
+plt.style.use('custom')
+```
 
 # Invoke custom style sheet
 
