@@ -14,6 +14,7 @@ Lesson One:
 - b move to begining of word ("backwards" move)
 - $ move to end of line
 - 0 move to start of line
+- } move forward by paragragh (the next blank line)
 - dd delete whole line (can do anywhere in line)
 - p paste (nice for moving whole lines, dd then p)
 - r replace, followed by charater to replace
@@ -21,12 +22,14 @@ Lesson One:
 - cc delete whole line and go into Insert mode
 - c$ delete from cursor to end of line and go into Insert mode
 - caw change (delete and go to insert mode) whole word that cursor is in
+- cc change the entire line (to to Insert mode)
 
 Lesson Two:
 - CTRL g to see cursor line number location
 - G go to bottom of file
 - gg go to top of file
 - line number G to move to line number in file
+- : [num] go to num line number in file (similar to [num] G command, as above)
 
 Lesson Three:
 - / to search
@@ -72,6 +75,7 @@ BONUS:
   insert
 - CTRL d to advance down by half-page
 - CTRL u to advance up by half-page
+- M for move cursor to middle of file view (H for top, L for bottom)
 - di> to delete in between < > brackets. Can also do ci) for between ()
 
 Buffers:
@@ -83,6 +87,11 @@ Buffers:
 - CTRL w w to switch windows
 - Shift CTRL 6 to alternate between 2 different buffers in same window
 - use :bn and :bp for cycling through next and previous buffers (sprinting)
+
+Tabs (yes they are a thing):
+- :tabe make a new tab
+- gt go to next tab
+- gT got to previous tab
 
 Nvim (and also general Vim) Advance:
 - nvim . (for the whole directory to open)
