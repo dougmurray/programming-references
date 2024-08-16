@@ -35,12 +35,15 @@ Lesson Three:
 - / to search
 - n after search word to find next occurance of word
 - N after search word to find previous occurance of word
+- CTRL r CTRL w after using / will insert word under cursor into search
+- * will search all words like one under cursor
 
 Lesson Four:
 - % to find matching ), ], } parentheses
 - :s/old/new to sustitute one occurance of old word with new word
 - :s/old/new/g to substitute all the old words with the new words in line
 - :%s/old/new/gc to substitute all old words with new worlds in file, one-at-time
+- vawp paste yanked word onto word cursor is under, replaceing it
 
 Lesson Five:
 - :! command to execute external (terminal) command
@@ -97,4 +100,25 @@ Nvim (and also general Vim) Advance:
 - nvim . (for the whole directory to open)
 - :vs to split vertically (buffers!)
 - :e TAB to see other files/directories (this can be . directory too)
+
+Repeating commands and movements (super advance recording):
+This works best if you set in vimrc: xnoremap p pgvy
+- qx to start recording actions (actions saved under letter 'x')
+- q to stop recording actions
+- @x to repeat recorded action saved in letter 'x'
+- @@ to repeat most recently saved recorded action
+(Example case):
+Repeating replacing (pasting) one word with another individually using search
+    - (after yanking the word you want to paste over other word)
+    - * search with cursor over word you want to replace (overwrite)
+    - qx to start recording actions and movements
+    - vawp to paste new word over older word
+    - n to search to next occurance of old word in file
+    - q to stop recording actions and movements
+        - this recorded movement is:
+            1. paste over old word with new word
+            2. since you were in search mode, n advances to next occurance
+word
+    - @x or @@ to repeat saved, previous, recorded action
+    - repeat the above command to repeat as many times as you want 
 

@@ -37,6 +37,7 @@ set ignorecase
 set incsearch
 " Solarized color vim color setting
 syntax enable
+xnoremap p pgvy
 "set background=light
 "let g:solarized_termcolors=256
 "colorscheme solarized
