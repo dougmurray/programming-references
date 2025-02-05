@@ -91,6 +91,23 @@ Buffers:
 - Shift CTRL 6 to alternate between 2 different buffers in same window
 - use :bn and :bp for cycling through next and previous buffers (sprinting)
 
+Windows (similar to buffers):
+- :split splits the current window, adding window with copy of current work
+- :new splits the current window, adding an empty window, best approach*
+- :vsplit and :vnew do the same thing above, but windows are side by side
+- CTRL w CTRL w or CTRL w w switches between windows
+- :close closes the current working window
+- :only closes all windows except the working window
+- :qall quits all windows, unless there are changes
+- CTRL w K or J moved windows up and down, respectively 
+- vim -o one.txt two.txt three.txt opens all files in separate windows
+	- vim -O does this vertically
+
+Vimdiff
+- vimdiff one.txt two.txt starts two windows side-by-side for comparision
+- :diffsplit two.txt or :veritcal diffsplit makes side-by-side comparision windows
+- ]c or [c to jump to changes in the vimdiff
+
 Tabs (yes they are a thing):
 - :tabe make a new tab
 - gt go to next tab
