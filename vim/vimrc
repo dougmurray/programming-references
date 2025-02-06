@@ -41,7 +41,9 @@ xnoremap p pgvy
 "set background=light
 "let g:solarized_termcolors=256
 "colorscheme solarized
-colorscheme sorbet
+"colorscheme sorbet
+"colorscheme pablo
+colorscheme retrobox
 
 if has("vms")
   set nobackup		" do not keep a backup file, use versions instead
