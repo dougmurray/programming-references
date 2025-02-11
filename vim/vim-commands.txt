@@ -108,6 +108,13 @@ Vimdiff
 - :diffsplit two.txt or :veritcal diffsplit makes side-by-side comparision windows
 - ]c or [c to jump to changes in the vimdiff
 
+Vimgrep
+While in vim, say vim .
+- :vimgrep /findthistext/ * will find the text in multiple files
+- :cnext for next occurance of find
+- :cprev for previous occurnace of find
+- @: to repeat command
+
 Tabs (yes they are a thing):
 - :tabe make a new tab
 - gt go to next tab
@@ -134,8 +141,7 @@ Repeating replacing (pasting) one word with another individually using search
     - q to stop recording actions and movements
         - this recorded movement is:
             1. paste over old word with new word
-            2. since you were in search mode, n advances to next occurance
-word
+            2. since you were in search mode, n advances to next occurance word
     - @x or @@ to repeat saved, previous, recorded action
     - repeat the above command to repeat as many times as you want 
 
