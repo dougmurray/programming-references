@@ -1,6 +1,21 @@
 # Vim Commands
 These commands were derived by the vimtutor, however some were just found randomly or by online searching.
 
+## Tried and Trues:
+
+- :Ex <tab> explores file system
+- :new splits the current window, adding an empty window, best approach*
+- CTRL w CTRL w or CTRL w w switches between windows
+- line number G to move to line number in file
+- e move to end of word (to end of word, think de)
+- b move to begining of word ("backwards" move)
+- A append at end of line
+- caw change (delete and go to insert mode) whole word that cursor is in
+- :%s/old/new/gc to substitute all old words with new worlds in file, one-at-time
+- * will search all words like one under cursor
+
+## Lessons:
+
 Lesson One:
 - u is undo!!!
 - U to undo all edits in line
