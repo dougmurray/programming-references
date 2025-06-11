@@ -13,6 +13,8 @@ These commands were derived by the vimtutor, however some were just found random
 - caw change (delete and go to insert mode) whole word that cursor is in
 - :%s/old/new/gc to substitute all old words with new worlds in file, one-at-time
 - * will search all words like one under cursor
+- CTRL v then arrows, followed by SHIFT i or SHIFT a to column select and
+- di> to delete in between < > brackets. Can also do ci) for between ()
 
 ## Lessons:
 
