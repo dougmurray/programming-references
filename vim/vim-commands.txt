@@ -16,7 +16,6 @@ These commands were derived by the vimtutor, however some were just found random
 - CTRL v then arrows, followed by SHIFT i or SHIFT a to column select and
 - di> to delete in between < > brackets. Can also do ci) for between ()
 - CTRL N is for autocomplete a word
-- * will search all words like one under cursor
 
 ## Lessons:
 
