@@ -1,6 +1,6 @@
 # Some good vim commands recently learned
 
-The source of all this is from YouTube, who knew! This list is mainly from **The Primeagen**, *Vim As Your Editor- Horizontal* video. This is the 2nd video of the Vim series.
+The source of all this is from YouTube, who knew! This list is mainly from **The Primeagen**, *Vim As Your Editor- Horizontal* video. Plus his other Vim course videos.
 
 Remember **CTRL c** is the same as Esc!
 
@@ -22,7 +22,7 @@ Remember **CTRL c** is the same as Esc!
     - n for next item
 - * to search for word cursor is on
 - vi( to select all text inside () and insert mode
-- viw **God command**, select whoel word cursor is on
+- viw **God command**, select whole word cursor is on
 - *iw* type commands are the most used
 - think yiw or yiW
 ----
@@ -42,8 +42,8 @@ Remember **CTRL c** is the same as Esc!
 - f find to right of cursor on line
     - f( move to first (, then can do *a* for insert **after**
         - can use f with any other character to find on line
-        - can use ; to go to next ( on same line
-        - can use , to go back to previous ( on same line
+        - can use ; to go to *next* ( on same line
+        - can use , to go *back* to previous ( on same line
     - F( is move to previous (
         - can use F with any other characters to find on line
         - think combining with commands like 
