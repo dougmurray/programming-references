@@ -16,8 +16,9 @@ Remember **CTRL c** is the same as Esc!
 - A append at end of line
 - I insert at begining of line
 - f find char on line
-    - great for combos like *vf char*
-- viw **God command**, select whole word cursor is on
+    - great for combos like *vf char*, DTM favorite
+    - use ; and , for find next, forward and backwards
+- viw **God command**, select whole word cursor is on, DTM favorite
 - *iw* type commands are the most used
     - ciw or viw or yiw or diw
     - ciw change word that cursor is on
