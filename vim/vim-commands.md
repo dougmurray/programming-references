@@ -15,12 +15,14 @@ Remember **CTRL c** is the same as Esc!
 - $ move to end of line
 - A append at end of line
 - I insert at begining of line
+- f find char on line
+    - great for combos like *vf char*
 - viw **God command**, select whole word cursor is on
 - *iw* type commands are the most used
-    - ciw or viw or ciw or diw
+    - ciw or viw or yiw or diw
     - ciw change word that cursor is on
 - vi( to select all text inside () and insert mode
-    - Can also do ci) for between (), *works for empty ()*
+    - Can also do ci( for between (), *works for empty () too*
 - o insert line below cursor, insert mode
 - O insert line above cursor, insert mode
 - * will search all words like one under cursor
