@@ -3,19 +3,35 @@ These commands were derived by the vimtutor, however some were just found random
 
 ## Tried and Trues:
 
+Remember **CTRL c** is the same as Esc!
+
 - :Ex <tab> explores file system
 - :new splits the current window, adding an empty window, best approach*
 - CTRL w CTRL w or CTRL w w switches between windows
 - line number G to move to line number in file
-- e move to end of word (to end of word, think de)
+- w move to next word (to beginning of word)
 - b move to begining of word ("backwards" move)
+- _ like 0, move to front of line
+- $ move to end of line
 - A append at end of line
-- caw change (delete and go to insert mode) whole word that cursor is in
-- :%s/old/new/gc to substitute all old words with new worlds in file, one-at-time
+- I insert at begining of line
+- viw **God command**, select whole word cursor is on
+- *iw* type commands are the most used
+    - ciw or viw or ciw or diw
+    - ciw change word that cursor is on
+- vi( to select all text inside () and insert mode
+    - Can also do ci) for between (), *works for empty ()*
+- o insert line below cursor, insert mode
+- O insert line above cursor, insert mode
 - * will search all words like one under cursor
+    - / searches
+        - n for next item
 - CTRL v then arrows, followed by SHIFT i or SHIFT a to column select and
-- di> to delete in between < > brackets. Can also do ci) for between ()
 - CTRL N is for autocomplete a word
+- >> or << to indent right or left, DTM favorite
+    - can indent whole sections: V>
+- CTRL d and CTRL u for page down and page up
+- :%s/old/new/gc to substitute all old words with new worlds in file, one-at-time
 
 ## Lessons:
 

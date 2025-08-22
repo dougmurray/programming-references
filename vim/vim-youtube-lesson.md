@@ -24,7 +24,7 @@ Remember **CTRL c** is the same as Esc!
 - vi( to select all text inside () and insert mode
 - viw **God command**, select whole word cursor is on
 - *iw* type commands are the most used
-- think yiw or yiW
+    - think yiw or yiW
 ----
 - VY for visual yank to end of line
 - YD for visual delete to end of line
