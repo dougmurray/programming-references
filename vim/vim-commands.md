@@ -19,9 +19,9 @@ Remember **CTRL c** is the same as Esc!
     - great for combos like *vf char*, DTM favorite
     - use ; and , for find next, forward and backwards
 - viw **God command**, select whole word cursor is on, DTM favorite
-- *iw* type commands are the most used
-    - ciw or viw or yiw or diw
-    - ciw change word that cursor is on
+    - *iw* type commands are the most used
+        - ciw or viw or yiw or diw
+        - ciw change word that cursor is on
 - vi( to select all text inside () and insert mode
     - Can also do ci( for between (), *works for empty () too*
 - o insert line below cursor, insert mode
