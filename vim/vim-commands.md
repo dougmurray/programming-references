@@ -35,6 +35,7 @@ Remember **CTRL c** is the same as Esc!
     - can indent whole sections: V>
 - CTRL d and CTRL u for page down and page up
 - :%s/old/new/gc to substitute all old words with new worlds in file, one-at-time
+- Macros: qa starts macro, do some commands then, q to stop macro. Finally @a to repeat macro
 
 ## Lessons:
 
