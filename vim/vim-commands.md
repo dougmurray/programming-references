@@ -37,7 +37,11 @@ Remember **CTRL c** is the same as Esc!
     - can indent whole sections: V>
 - CTRL d and CTRL u for page down and page up
 - :%s/old/new/gc to substitute all old words with new worlds in file, one-at-time
-- Macros: qa starts macro, do some commands then, q to stop macro. Finally @a to repeat macro
+- Macros: qq starts macro, do some commands then, q to stop macro. Finally @q to repeat macro
+    - the second q in qq and in @q is the register designator, it could be anything
+        - the macro format is: q<register><commands>q
+    - to view the macros, checkout the registers with :reg, or :regq for the specific one
+    - try to start you macro with 0 to set the beginning point at same point
 - :terminal starts a terminal, switch with CTRL w w and close with CTRL w c
 
 ## Lessons:
