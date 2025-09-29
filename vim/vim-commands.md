@@ -36,6 +36,9 @@ Remember **CTRL c** is the same as Esc!
 - >> or << to indent right or left, DTM favorite
     - can indent whole sections: V>
 - CTRL d and CTRL u for page down and page up
+- CTRL o or CTRL i to jump to previous edit points
+    - see :help jump-motions
+    - also try out: gi , this jumps to perivous point and does to edit mode
 - :%s/old/new/gc to substitute all old words with new worlds in file, one-at-time
 - Macros: qq starts macro, do some commands then, q to stop macro. Finally @q to repeat macro
     - the second q in qq and in @q is the register designator, it could be anything
