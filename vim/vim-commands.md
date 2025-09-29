@@ -38,6 +38,7 @@ Remember **CTRL c** is the same as Esc!
 - CTRL d and CTRL u for page down and page up
 - :%s/old/new/gc to substitute all old words with new worlds in file, one-at-time
 - Macros: qa starts macro, do some commands then, q to stop macro. Finally @a to repeat macro
+- :terminal starts a terminal, switch with CTRL w w and close with CTRL w c
 
 ## Lessons:
 
