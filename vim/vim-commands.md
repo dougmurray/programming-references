@@ -28,6 +28,7 @@ Remember **CTRL c** is the same as Esc!
     - Can also do ci( for between (), *works for empty () too*
 - o insert line below cursor, insert mode
 - O insert line above cursor, insert mode
+- CTRL w when in insert mode deletes word before/at cursor (quick misspell fix)
 - * will search all words like one under cursor
     - / searches
         - n for next item
