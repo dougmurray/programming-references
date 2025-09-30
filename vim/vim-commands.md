@@ -46,6 +46,7 @@ Remember **CTRL c** is the same as Esc!
     - to view the macros, checkout the registers with :reg, or :regq for the specific one
     - try to start you macro with 0 to set the beginning point at same point
 - :terminal starts a terminal, switch with CTRL w w and close with CTRL w c
+    - neovim :top :term , then to close use CTRL d
 
 ## Lessons:
 
