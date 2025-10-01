@@ -13,6 +13,7 @@ The default is CTRL b , however it can be changed to the easier CTRL a.
 - CTRL b o switch between split panes
     - CTRL b arrow keys work too
 - CTRL b x close pane
+    - CTRL d does it faster
 - tmux ls will list all the sessions
 - tmux kill-session will close all sessions
 
