@@ -1,7 +1,8 @@
-import numpy as np
 import matplotlib.pyplot as plt
 
-def elemental_plotter(xvalues, yvalues, plot_type, plot_label, title, xlabel, ylabel, grid=None, xscale=None, yscale=None):
+
+def elemental_plotter(xvalues, yvalues, plot_type, plot_label, title,
+                      xlabel, ylabel, grid=None, xscale=None, yscale=None):
     """ Plots with all my favorite elements.
     Example usage:
     noise_plot, plot_axs = elemental_plotter(freqs, psd, 'loglog', 'output noise', 'Title', 'Freq (Hz)', 'Voltage Noise ($\mu V/\sqrt{Hz}$)', grid=True, yscale=1e-6)
@@ -42,15 +43,15 @@ def elemental_plotter(xvalues, yvalues, plot_type, plot_label, title, xlabel, yl
         # Change scale of plot
         ticks_x = plt.FuncFormatter(lambda x, pos: '{0:g}'.format(x/xscale))
         ax.xaxis.set_major_formatter(ticks_x)
- 
+
     if yscale:
         ticks_y = plt.FuncFormatter(lambda x, pos: '{0:g}'.format(x/yscale))
         ax.yaxis.set_major_formatter(ticks_y)
 
     if grid:
-            ax.grid(which='both', linewidth=0.5)
+        ax.grid(which='both', linewidth=0.5)
     else:
-            pass
+        pass
 
     ax.autoscale(tight=True)
     ax.set_xlabel(xlabel)
