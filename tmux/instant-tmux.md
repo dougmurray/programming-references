@@ -12,10 +12,14 @@ The default is CTRL b , however it can be changed to the easier CTRL a.
     - CTRL b " split pane vertically
 - CTRL b o switch between split panes
     - CTRL b arrow keys work too
-- CTRL b x close pane
-    - CTRL d does it faster
+- CTRL d does it faster, DTM favorite
+    - CTRL b x close pan
 - tmux ls will list all the sessions
 - tmux kill-session will close all sessions
+
+- CTRL b f <ENTER> will go into search pane mode
+- CTRL b c new window
+- CTRL b w will go into search windows mode
 
 ### Having the process keep running
 
