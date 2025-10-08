@@ -18,7 +18,8 @@ Remember **CTRL c** is the same as Esc!
 - f find char on line
     - great for combos like *vf char*, DTM favorite
     - use ; and , for find next, forward and backwards
-- t find char on line, cursos ends up *right before* found char
+- F find char on line *backwards*
+- t find char on line, cursor ends up *right before* found char
     - great for combos like *ct char*, DTM favorite
 - viw **God command**, select whole word cursor is on, DTM favorite
     - *iw* type commands are the most used
