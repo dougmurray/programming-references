@@ -27,6 +27,7 @@ Remember **CTRL c** is the same as Esc!
         - ciw change word that cursor is on
 - vi( to select all text inside () and insert mode
     - Can also do ci( for between (), *works for empty () too*
+- C change from cursor to end of line, very useful
 - o insert line below cursor, insert mode
 - O insert line above cursor, insert mode
 - CTRL w when in insert mode deletes word before/at cursor (quick misspell fix)
