@@ -1,8 +1,8 @@
 # Tmux Instant
 
 These are the order of common commands to for using **tmux**.
-
 The default is CTRL b, however it can be changed to the easier CTRL a.
+Note: To scroll: CTRL b [ then use arrow keys. Press q to quit scroll mode.
 
 ## Order of commands
 
