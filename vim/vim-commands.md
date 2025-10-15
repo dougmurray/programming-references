@@ -6,6 +6,7 @@ These commands were derived by the vimtutor, however some were just found random
 Remember **CTRL c** is the same as Esc!
 
 - :Ex <tab> explores file system
+    - :Sex <tab> sexplores fle system
 - :new splits the current window, adding an empty window, best approach*
 - CTRL w CTRL w or CTRL w w switches between windows
 - line number G to move to line number in file
