@@ -65,15 +65,19 @@ This ensures not to clobber your registers. Alternatively use the special `"0p` 
 ## Editing in Insert Mode
 One of the niftiest tricks is to *backspace while in Insert Mode* with `<CTRL-w>`. This only works in Insert Mode, but super useful.
 
-You can insert odd characters while in Insert Mode by using *Digraphs*, see `:h digraph-table`. While in Insert Mode type `<CTRL-k>{char1}{char2}` where the `{chars}` are based on the table:
+You can insert odd characters while in Insert Mode by using *Digraphs*, see `:h digraph-table`. While in Insert Mode type `<CTRL-K>{char1}{char2}` where the `{chars}` are based on the table:
 
     Ω   W*
-    μ   m*
+    μ   m* or My
     π   p*
     √   RT
     °   DG
+    ±   +-
+    Δ   D*
+    Θ   H*
+    Σ   S*
 
-If you don't know the visual character then, with cursor over it, type `ga`.
+Yes, that is a captial K for the command. If you don't know the visual character then, with cursor over it, type `ga`.
 
 ## Visual Mode
 You can use `v`, `V`, or `<CTRL-v>` (block mode) for Visual Mode. When in Visual Mode you can swap between highlight ends with the `o` command. Less useful, when in Normal Mode, you can use `gv` to reselect the previous highlights.
@@ -113,3 +117,4 @@ Start macros in correct cursor beginning and ending position. Use `n` (from sear
     @a
     move
     @@ to repeat
+
